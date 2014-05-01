@@ -5,5 +5,8 @@ class Test{
          throw new Exception('The world is coming to an end');
       }
       return true;
+   }
+   public function foo() {
+   echo 'Hello World';
    }   
 }
